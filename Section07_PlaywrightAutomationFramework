@@ -1,0 +1,37 @@
+# AUT - Blazedemo.com
+- Basic practice web application for searching and purchasing flgihts.
+
+# Selecting best framework for the chosen website
+- 01-preview will be used as the best framework for reasoning.
+- Model used to identify the best framework for the AUT and the relevant constraints (time/skill/cost) not to mention requirements for the framework (browsers/language/devices).
+
+# Installing VS Code
+- Go install it for your OS.
+
+# Installing NODE
+- Go install it for your OS.
+
+# Setting up the Prerequisites with ChatGPT
+- Use the GenAI tool to get a step-by-step guide to install and setup the relevant automation tool so it is then ready to go.
+
+# Install Playwright and Demo Test
+- Installed above
+
+# Deciding what is most important for Testing
+- Using the o1-ChatGPT is valuable because of the complex reasoning component.
+- By targeting the website you can gain A VIEW of what might be important to validate.
+
+# Completing the Test and generating first Draft Code with Mini o1 Model
+- The o1-mini model is the best for test code generation.
+- Using the GenAI to 'extend' the test case to provide a full customer journey is a time-saver.
+- Then prompting the GenAI to generate the test code itself for the TOOL and with the relevant LANGUAGE/DESIGN PATTERN will give a large amount of test code to test, validate, and refactor to ensure it works quickly.
+
+# Debug manually code
+- Initial failures are expected, so now that just need to be fixed.
+
+# Code Debug with ChatGPT-o1 and Canvas & Adding Screenshots for the tests
+- Inclusion of test code and the relevant failure code into the ChatGPT prompt is used to elicit targeted responses.
+- Iterative process of testing, refactoring, and retesting performed.
+
+# Best Practices and some future considerations
+- Abstracting the test data to make it modular and parameterise it using the page object model - as an example.
