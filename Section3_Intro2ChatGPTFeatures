@@ -52,4 +52,10 @@
 
 ## Connect to ONE
 
+- highlights the openai platform and the ability to configure and fine-tune your own ChatGPT powered model as well as use the API layer for interaction.
+
 ## Productivity hack with OPEN AI Mobile App
+
+- requires the ChatGPT app on an android or iOS phone
+- connectivity & synchronisation between mobile & desktop app allows you to use your phone to query, but then your desktop to retrieve the responses
+- demonstrates use of ChatGPT to get the relevant selectors from the webpage, to generate page object files, and to generate the test code required to perform a basic smoke test
