@@ -1,0 +1,31 @@
+# Concept Explanation
+- Terms such as 'shift-left' and 'shift-right' used as examples.
+- Using successive prompts to 'layer' context into the 'conversation' is a method to develop a more sophisticated dialogue.
+- Further probing and question-asking helps to gain greater detail, alternatives, and explanations.
+
+# Accelerate your Documentation
+- The more sophisticated the prompt, the better and more nuanced the response.
+- Use of key words helps to ensure that specific traits, qualities, or topics are included in the response as desired.
+- The better the prompt, the better the answer. Obvious really.
+- More specific details helps to avoid an overly generic response.
+- Demonstrates the value of using GenAI to rapidly progress you from the blank page to a general template - to a more refined, customised, and specific artefact.
+
+# Creating a Test Framework
+- Ensure the context is established.
+- Provide the full-stack context from DB 2 BE 2 FE 2 Design 2 Timescales 2 Budgetary constraints.
+- Checking for alternatives is a useful exercise to prompt for.
+- "Enjoy it, its great. It gives you all the right answers if you know how to ask the right questions".
+
+# User Story Enhancement & Validation
+- Example uses ChatGPT to provide alternative perspectives - challenger AI.
+- Validate/extend user stories from alternative perspectives.
+- Identifying whether any requirement categories are missing - such as NFRs.
+
+# Test Case Generation
+- Continuing from the 'User Story' example above, specific test cases can now be generated.
+- Explicit test cases and test steps can be triggered and the formatting/pattern can be clearly defined too.
+- Test preconditions and requirements can also be expanded upon automatically.
+
+# Leveraging Chat History Context
+- Continuing the chat allows you to elaborate/pivot from previously generated responses, while also retaining the context that has been established beforehand.
+- 
