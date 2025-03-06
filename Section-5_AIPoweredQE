@@ -1,0 +1,38 @@
+# QE Use Cases
+
+## AI Assisted Code Coverage
+
+- With access to code base and a coverage report, then guide the model to fill in the gaps.
+- Before committing the code, reviewing the coverage, and then using prompts to reinforce the positive or negative outcomes.
+- Human review is essential for sense-checking.
+
+## Self Healing Code
+
+- Using Generative AI to tweak failing code.
+- Integrating an 'autoheal-tests' job within a Github Actions workflow.
+- Using the API integration with a Gen AI tool to pass over the failing code and a prompt requesting changes.
+- Autocommits of the response payload should then prompt the same unit tests and coverage checks to determine whether the code coverage is complete.
+
+## Analytics-Based Testing
+
+- Implement a BDD approach to describe the application behaviour.
+- Any AC can then be mapped to the specific automated checks that are written in the human-readable BDD format.
+- Use Google Analytics to understand user interaction and behaviour with the application.
+- What are the most prevalent journeys and features being used?
+- This enables you to prioritise targeting to testing.
+
+## Tests Based on Analytics
+
+- Testing in production provides highest levels of confidence possible.
+- GA-informed tests provide the most valuable data and insights to guide testing - rather than guessing at what is most important to cover.
+- Acceptance tests allow continuous validation that the application supports the desired user behaviour.
+- GA data provides continuous feedback on the scenarios that are being validated by the acceptance tests.
+- A model can then provide a summary of what IS being tested vs the user behaviour in the real world. This 'delta' or 'difference' can then inform the next steps.
+- It helps to ensure that use cases beyond the linear customer journey will be validated.
+
+## Test Case Generation
+
+- Combine raw data with sample data to demonstrate the required format.
+- To provide the LLM with sufficient contextual information, you might use UI elements, the webpage, wireframes, mock-ups etc.
+- Existing test cases, scripts, and pag object files also provide very clear direction of the desired output.
+- A 'foundation model' needs to be rained on these varied datasets.
