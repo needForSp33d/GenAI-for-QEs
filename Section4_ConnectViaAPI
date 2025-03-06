@@ -1,0 +1,29 @@
+# What is a 'token' in an LLM?
+
+- In the context of LLMs it references a unit of text that is used in LLM request and responses.
+- It is vital in determining usage as well as charging for the service usage.
+
+# Creating a Subscription
+
+- Vital when using ChatGPT at the API layer.
+- You must have 'credit' associated with your openai account - all set via the billing interface.
+
+# API - Pricing
+
+- Different GPT models have different pricing structures.
+
+# GET the API key
+
+- API keys are unique and tied directly to your account.
+
+# APIs and Endpoints
+
+- openai > Settings > Documentation > API Reference documentation provides the relevant endpoints.
+
+# Create the API Request
+
+- openai > Settings > Documentation > Quick Start tutorial provides relevant documentation.
+
+# Warning
+
+All of the above will be subject to change.
