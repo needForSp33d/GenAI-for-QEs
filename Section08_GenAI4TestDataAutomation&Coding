@@ -1,0 +1,41 @@
+# Generate Given When Then Scenarios
+- Set context for the GenAI model to maximise relevance of response.
+- Establish the desirec format.
+
+# Generate Cucumber Feature Files
+- Prompt the LLM to generate based on the scenario above based on Gherkin syntax.
+
+# Generate Cucumber files with project context
+- Provide examples of existing files in order to give greater context and ensure material conforms to requirements.
+
+# Generate Automated Tests with Chat GPT
+- Provide further context to get generated tests.
+
+# Generate Automated Tests with project context
+- Providing further context helps to give the 
+
+# Transform from Code to BDD - Cucumber
+
+# Adapting code with CHATGPT
+
+# Generate API call from Source Code
+
+# Using Chat GPT to help configure Postman
+
+# Setting up CLI Execution for Postman
+
+# Switch from one format to another Postman -> Rest assured
+
+# Generate Test Data with AI
+
+# Generate SQL Queries
+
+# Import from Excel to SQL
+
+# Generate large volumes of data
+
+# Setup Containers with AI - Docker
+
+# Using AI to add jobs in CI/CD pipeline
+
+# Using AI for setting up performance testing pipelines - GOOGLE LIGHTHOUSE
