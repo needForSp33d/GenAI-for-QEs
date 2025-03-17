@@ -12,29 +12,49 @@
 - Provide further context to get generated tests.
 
 # Generate Automated Tests with project context
-- Providing further context helps to give the 
+- Providing further context helps to give the LLM more material to emulate & use to guide generation.
 
 # Transform from Code to BDD - Cucumber
+- As above.
 
 # Adapting code with CHATGPT
+- Further prompts drive code production adn ensure that file pathways are correct in refactored code/page-object/fixture files.
 
 # Generate API call from Source Code
+- Example uses raw class code to generate sample JSON payload.
+- Can generate not only test payloads, but also test aPI calls locally in the CLI via the relevant command. curl... etc.
 
 # Using Chat GPT to help configure Postman
+- Postman collection generation.
+- Initial, basic tests can be generated - but then extended and refined.
 
 # Setting up CLI Execution for Postman
+- Example used setup of postman, installation of newman, and then triggering of the relevant test api calls via the CLI.
 
 # Switch from one format to another Postman -> Rest assured
+- Very cool.
 
 # Generate Test Data with AI
+- Using user stories & prompts to generate bespoke test data.
+- Then using the 'context memory' established by earlier questions to incorporate the combined mishmash of data to generate more powerful artefacts.
+*Highlighted the importance of asking the right questions!*
 
 # Generate SQL Queries
+- Use table schemas to provide 'content' for the data structures.
+- As with earlier examples, iteratve again, and again, and again.
 
 # Import from Excel to SQL
+- Besure to specify the desired output - the format, attributes, and file type needed.
+- ChatGPT then used to generate a SQL script that will produce a load of test data.
+- Can then use the test data files to validate the csv file load function - as well as any associated validation.
 
 # Generate large volumes of data
+- Key use case is for generating test data for performance testing.
+- Highlighted the use of GenAI to provide a challenger perspective throughout he process.
 
 # Setup Containers with AI - Docker
+- Use case involves triggering postman tests within a pipeline with each branch commit.
+- Doker file created with sequence of commands that will be executed.
 
 # Using AI to add jobs in CI/CD pipeline
 
