@@ -54,8 +54,13 @@
 
 # Setup Containers with AI - Docker
 - Use case involves triggering postman tests within a pipeline with each branch commit.
-- Doker file created with sequence of commands that will be executed.
+- Docker file created with sequence of commands that will be executed.
+- A valuable way of creating a known, stable environment for application & test execution.
 
 # Using AI to add jobs in CI/CD pipeline
+- Using GenAI to setup and configure GH actions within a pipeline.
+- Sequence of jobs & relevant step logic all introduced.
 
 # Using AI for setting up performance testing pipelines - GOOGLE LIGHTHOUSE
+- Performance validation tests via Lighthouse & orchestrated via Github Actions.
+- Ability to configure these steps along with the appropriate logic.
