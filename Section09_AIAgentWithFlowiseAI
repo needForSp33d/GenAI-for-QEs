@@ -1,12 +1,26 @@
 # Agentic AI | AI Agents - What are AI Agents
+- Defined as automonomous agents using tools to complete tasks.
+- Task driven and 'prompted' to produce specific outputs.
+- Therefore, dependant on the user to provide 'the right' prompt.
+- Could rely on simple prompts or on prompt chaining from one LLM to another.
+- The agent as orchestrator or conductor.
 
 # Agentic AI - Demo On AI Agent that can Automatically Create Tests
+- Flowise AI is the tool to create an agent.
+- Flowise as tool for stitching different components together.
+- Able to generate a flow or 'story' that can then grab and interpret the prompt before generating the relevant tests.
 
 # Agentic AI | AI Agents - What is Flowise AI
+- Drag & drop engine for creating agents to solve a range of usecases.
+- Free to run locally - once using cloud resources, then you have to pay for Flowise specifically.
+- Tool optimised for orchestrating LLMs, you just need the relevant account & API key.
 
 # Agentic AI | AI Agents - Installing Flowise AI Locally
+- Use npm to install the tool.
+- Big install, > 10 minutes.
 
 # Agentic AI | AI Agents - Prompt Chaining
+- The 'supervisor' app is required to 
 
 # Agentic AI | AI Agents - Interact with files
 
