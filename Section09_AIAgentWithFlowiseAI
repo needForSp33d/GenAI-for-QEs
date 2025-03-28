@@ -20,8 +20,15 @@
 - Big install, > 10 minutes.
 
 # Agentic AI | AI Agents - Prompt Chaining
-- The 'supervisor' app is required to 
+- The 'supervisor' app is required to orchestrate the various 'nodes' or 'workers' through the flow.
+- An AI Key will be required to 'power' the flow, specify the model, and the 'temperature' value.
+- Each aspect can be configured slightly differently.
+- Iterative process of trial & error can itself be automated - with various personas, and prompts pre-defined and then applied to the preceding output.
 
 # Agentic AI | AI Agents - Interact with files
+- Prompt chains can also be used to read from, interact with files, and generate new file outputs (both content, format, and type).
+- Example uses stories as initial prompts - refining, in-built prompts, in-built checking/challenger prompts - to then generate test code that can test application code based on these prompts.
 
 # Agentic AI | AI Agents - Generate Automated Tests from Webpage
+- Similar to the preceding chapter, an application called 'Fire-crawl' that turns the website into an LLM-ready dataset.
+- A map, data, and digital structure is established.
