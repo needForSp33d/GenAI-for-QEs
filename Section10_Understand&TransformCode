@@ -1,17 +1,41 @@
 # Using AI as a way to understand code
+- Means of breaking down & analysing new code/technologies.
 
 # Using AI to calculate Unit Test coverage
+- Use the tool to gain understanging of how to answer these questions in the right way for the specific tech stack/language/tooling.
+- Then use these insights to, perhaps, implement limits and guardrails for ensuring coverage is maintained - such as a build check that will fail where the coverage standard is NOT satisfied.
 
 # Using AI to investigate unit test efficiency
+- use of chained prompts and the prompt separated from the code snippets with "" characters. i.e:
 
-# Scanning you Code Repo with AI
+Code
 
-# Scanning you Code Repo with AI - Alternative
+"and this is my associated unit test code"
+
+Test Code
+
+"what is the unit test coverage in this instance?"
+
+- Further prompts then incorporate the GenAI feedback into the test code.
+
+# Scanning your Code Repo with AI
+- Can be used to target and scan open repos.
+- While credentials could be used to prompt analysis of private & proprietary repos, that is dangerous if you are using an open source LLM.
+
+# Scanning your Code Repo with AI - Alternative
+- There is a plugin called 'Ask the Code' specifically designed to interact with public github repositories.
 
 # Interacting with PDFs
+- Plugins & the Pro version of ChatGPT allow you to scan/parse a PDF file.
+- Further prompts to summarise content, generate test cases, and then recommendations as to how to validate those test cases in the most effective way.
 
 # [Alternative] - CHAT.PDF
+- Drag & drop method demonstrated.
 
 # Assess Order of execution for Tests
+- Recommendations can be given without further input.
+- Personas could be used to prompt certain perspectives in the output which might influence the prioritisation.
+- You can also gain input to ensure compliance with set standards/requirements/legislation.
 
 # Aiding in Jira dashboard creation - JQL Filter
+- Solid example of using dummy/placeholder terms/names in conjunction with a specific use case to generate dummy JQL that can then provide the right filter/dashboard.
