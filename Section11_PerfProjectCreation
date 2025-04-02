@@ -1,22 +1,44 @@
+Goal - perform performance testing of an application with very limited knowledge AND GenAI LLM Tool:
+
 # Selecting the tool with AI
+- Setting scene
+- Specifying that it must be free
+- Provide various tool requirements
+- Queries installation steps
 
 # Create first performance Test Script
+- Steps above followed.
+- Implementation code fed into the LLM to then provide test code.
+- User prompting for the raw .jmx script.
+- This approach entirely circumvents using the Jmeter UI tool.
 
 # Add listener to Test Script
+- GenAI used to iterate on and improve the script to contain alternative aspects.
+- To switch the number of iterations from infinite, to finite.
+- To add 'listener' modules so that the responses are then captured.
 
 # Adding Threads and Users
+- Further modifications prompted in line with relevant application/feature requirements.
+- Some core, foundational knowledge is required - in order to frame the prompts - but otherwise, the learning curve is far lower.
 
 # Generating Random Test Data
+- Use case demonstrated troubleshooting a random generator script using the request & response.
 
 # AI FAIL - Adding Results Summary
+- Repeated failures encountered - use of GenAI to troubleshoot the error messaging.
+- The iterative process being brought to life.
 
 # Adding Results Summary - The Solution
+- 
 
 # Running from Command Line
+- 
 
 # Creating Docker Container Image
+- 
 
 # Setting up GITHUB Action
+- 
 
 # Run the Test in a Pipeline
 
